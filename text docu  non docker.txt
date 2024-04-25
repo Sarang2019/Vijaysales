@@ -1,0 +1,8 @@
+Sadha vala (without docker) direct on aws connect
+git clone (url) 
+cd tflstore
+sudo apt update
+sudo apt install nodejs
+sudo apt install npm
+npm install
+node server.js

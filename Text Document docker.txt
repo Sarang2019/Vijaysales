@@ -1,0 +1,24 @@
+sudo apt update
+sudo apt install docker.io
+(docker –v)
+sudo systemctl status docker
+sudo docker ps
+sudo docker images
+sudo docker pull hello-world
+sudo docker images
+sudo docker pull nginx
+ sudo docker images
+ sudo docker run hello-world
+sudo docker run --name Akashwebserver -d -p 8080:80 nginx
+sudo docker ps
+
+(security - inbound -wizerd -inbound rule - edit inbo.rule -all traffic -ipv4)
+
+git clone (https://github.com/RaviTambade/tflstore.git)
+ ls
+cd tflstore
+sudo docker images
+sudo docker build -t tflimage .
+sudo docker images
+sudo docker run --name akash -d -p 8000:8000 tflimage
+sudo docker ps
